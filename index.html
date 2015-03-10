@@ -1,41 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Mygithub by wang-tom</title>
+    <meta name="description" content="Mygithub : my first github test">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Mygithub</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Mygithub</h1>
-        <p>my first github test</p>
 
-        <p class="view"><a href="https://github.com/wang-tom/web">View the Project on GitHub <small>wang-tom/web</small></a></p>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/wang-tom/web">View on GitHub</a>
 
+          <h1 id="project_title">Mygithub</h1>
+          <h2 id="project_tagline">my first github test</h2>
 
-        <ul>
-          <li><a href="https://github.com/wang-tom/web/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/wang-tom/web/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/wang-tom/web">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <p>hello World</p>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/wang-tom/web/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/wang-tom/web/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>10条PHP性能优化的小技巧，帮助你更好的用PHP开发：</p>
+
+<ol>
+<li><p>foreach效率更高，尽量用foreach代替while和for循环。</p></li>
+<li><p>循环内部不要声明变量，尤其是对象这样的变量。</p></li>
+<li><p>在多重嵌套循环中，如有可能，应当将最长的循环放在内层，最短循环放在外层，从而减少cpu跨循环层的次数，优化程序性能。</p></li>
+<li><p>用单引号替代双引号引用字符串以实现PHP性能优化。</p></li>
+<li><p>用i+=1代替i=i+1。符合c/c++的习惯，效率还高。</p></li>
+<li><p>优化Select SQL语句，在可能的情况下尽量少的进行Insert、Update操作，达到PHP性能优化的目的。</p></li>
+<li><p>尽量的少进行文件操作，虽然PHP的文件操作效率也不低的。</p></li>
+<li><p>尽可能的使用PHP内部函数。</p></li>
+<li><p>在可以用PHP内部字符串操作函数的情况下，不要用正则表达式。</p></li>
+<li><p>在可以用file_get_contents替代file、fopen、feof、fgets等系列方法的情况下，尽量用 file_get_contents，因为它的效率高得多。但是要注意file_get_contents在打开一个URL文件时候的PHP版本问题。 </p></li>
+</ol>
+
+<p>(●'◡'●)ﾉ♥ &lt;(▰˘◡˘▰)&gt; ｡◕‿◕｡ (｡・`ω´･) (♥◠‿◠)ﾉ ʅ(‾◡◝) </p>
+
+<p>(≖ ‿ ≖)✧ （´∀｀<em>) （＾∀＾） (o^∇^o)ﾉ ヾ(=^▽^=)ノ (</em>￣∇￣*)</p>
+
+<p>(<em>´∇｀</em>) (<em>ﾟ▽ﾟ</em>) (｡･ω･)ﾉﾞ (≡ω≡．) (｀･ω･´) (´･ω･｀)</p>
+
+<p>(●´ω｀●)φ </p>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/wang-tom">wang-tom</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Mygithub maintained by <a href="https://github.com/wang-tom">wang-tom</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
+
   </body>
 </html>
